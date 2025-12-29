@@ -19,6 +19,6 @@ These approaches do not scale well and can miss emerging risk patterns.
 
 This project addresses these issues by combining:
 
--Machine-learning based PD scoring
+- Machine-learning based PD scoring
 - Business risk banding
 - LLM-based policy and market interpretation
