@@ -54,9 +54,11 @@ The tuned LightGBM model achieved the strongest discriminatory power and was the
 ## Model Performanc Comparision
 
 | Model                | Precision | Recall | F1-Score | ROC-AUC | KS |
-|---------------------|-----------|--------|----------|--------|----|
-| **LightGBM (Grid)**  | **0.36**   | **0.66** | **0.46** | **0.71** | **0.31** |
-| XGBoost (Grid)      | 0.36      | 0.66   | 0.46     | 0.71   | 0.30 |
-| LightGBM            | 0.35      | 0.67   | 0.46     | 0.71   | 0.30 |
-| XGBoost             | 0.35      | 0.64   | 0.45     | 0.70   | 0.29 |
-| Logistic Regression | 0.35      | 0.63   | 0.45     | 0.70   | 0.29 |
+|---------------------|-----------|--------|----------|--------|--------|
+| **LightGBM (Grid)**  | **0.3552** | **0.6632** | **0.4626** | **0.7108** | **0.3069** |
+| XGBoost (Grid)      | 0.3552 | 0.6588 | 0.4615 | 0.7103 | 0.3047 |
+| LightGBM            | 0.3528 | 0.6683 | 0.4618 | 0.7092 | 0.3050 |
+| XGBoost             | 0.3540 | 0.6351 | 0.4546 | 0.7015 | 0.2921 |
+| Logistic Regression | 0.3529 | 0.6316 | 0.4528 | 0.6960 | 0.2881 |
+
+Among all tested models, the tuned LightGBM achieved the highest KS and ROC-AUC, indicating superior risk separation, and was therefore selected as the final Probability-of-Default engine
