@@ -112,10 +112,10 @@ This replicates how credit analysts and QA teams interact with risk models in pr
 
 ### Demo
 ### Loan Risk Scoreing
-![Loan Scoring](app pic.png)
+![Loan Scoring](/screenshot/app.png)
 
 ### RAG-Based Credit Recommendation
-![RAG](rag result.png)
+![RAG](/screenshot/rag.png)
 
 
 ### How to run Locally
